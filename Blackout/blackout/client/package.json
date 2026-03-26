@@ -1,0 +1,28 @@
+{
+  "name": "blackout-client",
+  "version": "1.0.0",
+  "description": "Web-based tactical FPS game client.",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "tsc && lite-server",
+    "build": "tsc",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "three": "^0.132.2",
+    "socket.io-client": "^4.5.4"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "lite-server": "^2.6.1"
+  },
+  "keywords": [
+    "FPS",
+    "multiplayer",
+    "tactical",
+    "web",
+    "game"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

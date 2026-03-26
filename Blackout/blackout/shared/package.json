@@ -1,0 +1,28 @@
+{
+  "name": "blackout-shared",
+  "version": "1.0.0",
+  "description": "Shared code for the Blackout game project.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "socket.io": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/blackout.git"
+  },
+  "keywords": [
+    "game",
+    "multiplayer",
+    "tactical",
+    "fps"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
